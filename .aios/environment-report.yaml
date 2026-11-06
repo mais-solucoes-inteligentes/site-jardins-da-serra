@@ -53,3 +53,4 @@ git_status:
   remote: null
   commit_count: 0
   status: "uncommitted_files"
+
