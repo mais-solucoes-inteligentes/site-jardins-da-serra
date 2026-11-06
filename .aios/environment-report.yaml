@@ -1,0 +1,55 @@
+# Environment Bootstrap Report - Synkra AIOS
+timestamp: "2026-11-06T10:09:20-03:00"
+project_name: "site-jardins-da-serra"
+agent: "Gage (@devops)"
+task: "environment-bootstrap"
+
+os:
+  platform: "win32"
+  distro: "Windows"
+  arch: "x64"
+  package_managers:
+    - chocolatey: "2.7.5"
+    - winget: "unavailable/restricted"
+
+cli_audit:
+  essential:
+    git:
+      status: "installed"
+      version: "2.56.0.windows.4"
+      required: true
+    node:
+      status: "installed"
+      version: "v26.13.0"
+      required: true
+    npm:
+      status: "installed"
+      version: "11.20.0"
+      required: true
+      note: "Requires npm.cmd due to PowerShell ExecutionPolicy"
+    gh:
+      status: "missing"
+      version: null
+      required: true
+      action: "optional_or_choco_install"
+  infrastructure:
+    docker:
+      status: "missing"
+      required: false
+    supabase:
+      status: "missing"
+      required: false
+    railway:
+      status: "missing"
+      required: false
+  quality:
+    coderabbit:
+      status: "missing"
+      required: false
+
+git_status:
+  initialized: true
+  branch: "main"
+  remote: null
+  commit_count: 0
+  status: "uncommitted_files"
