@@ -31,3 +31,4 @@ export const siteConfig = {
     { label: "Contato", href: "#contato" },
   ],
 };
+

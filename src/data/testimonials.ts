@@ -37,3 +37,4 @@ export const testimonialsData: TestimonialItem[] = [
     rating: 5,
   },
 ];
+

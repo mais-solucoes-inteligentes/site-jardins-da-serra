@@ -153,3 +153,4 @@ Como se trata de uma Landing Page focada em conversão e velocidade:
 1. **Scaffold da Aplicação:** Criar a estrutura base de arquivos do projeto (`package.json`, `tsconfig.json`, `tailwind.config.ts`, `src/`).
 2. **Handoff para `@dev`:** Implementação modular dos componentes da Landing Page seguindo a lista de histórias de desenvolvimento.
 3. **Validação de Qualidade com `@qa`:** Garantir que o build, o lint e o typecheck passem com 100% de sucesso.
+

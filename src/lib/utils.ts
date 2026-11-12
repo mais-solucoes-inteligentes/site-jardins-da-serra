@@ -10,3 +10,4 @@ export function formatWhatsAppLink(phone: string, message: string) {
   const encodedMessage = encodeURIComponent(message);
   return `https://wa.me/55${cleanPhone}?text=${encodedMessage}`;
 }
+

@@ -91,3 +91,4 @@ export const portfolioData: PortfolioItem[] = [
     aspect: "horizontal",
   },
 ];
+
