@@ -3,13 +3,13 @@ export const siteConfig = {
   tagline: "Jardinagem, Montagem e Projetos de Paisagismo na Serra Catarinense",
   description:
     "Especialistas em projetos de paisagismo, montagem, manutenção e cuidados de jardins para residências, condomínios e empresas em Lages e região.",
-  url: "https://jardinsdaserra.net.br",
+  url: "https://jardinsdaserra.com.br",
   ogImage: "/images/logo.png",
   contact: {
     phonePrimary: "(49) 9 8423-5653",
     phoneSecondary: "(49) 9 9931-2452",
     whatsAppNumber: "49984235653",
-    email: "contato@jardinsdaserra.net.br",
+    email: "contato@jardinsdaserra.com.br",
     city: "Lages",
     state: "SC",
     country: "Brasil",
@@ -18,7 +18,7 @@ export const siteConfig = {
   },
   social: {
     instagram: "https://instagram.com/jardinsdaserra",
-    facebook: "https://facebook.com/jardinsdaserra.net.br",
+    facebook: "https://facebook.com/jardinsdaserra.com.br",
     whatsappDefaultMessage:
       "Olá! Gostaria de solicitar um orçamento para serviços de jardinagem e paisagismo.",
   },
@@ -31,4 +31,3 @@ export const siteConfig = {
     { label: "Contato", href: "#contato" },
   ],
 };
-

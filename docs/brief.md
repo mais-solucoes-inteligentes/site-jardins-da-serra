@@ -28,8 +28,8 @@ O **Site Jardins da Serra** é o canal digital oficial da empresa **Jardins da S
 * **Tipografia da Marca:** *Fontastique* (sem serifa, traços curvos orgânicos nas extremidades, uso em caixa alta para a marca).
 * **Canais Oficiais:**
   * Telefone / WhatsApp: `(49) 9 8423-5653` e `(49) 9 9931-2452`
-  * E-mail: `contato@jardinsdaserra.net.br`
-  * Facebook: `facebook.com/jardinsdaserra.net.br`
+  * E-mail: `contato@jardinsdaserra.com.br`
+  * Facebook: `facebook.com/jardinsdaserra.com.br`
 
 ---
 

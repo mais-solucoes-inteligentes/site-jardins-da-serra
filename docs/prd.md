@@ -96,7 +96,7 @@ A empresa **Jardins da Serra** (sediada em Lages/SC) atua no mercado de jardinag
 ### 4.5 Integração com Redes Sociais & Contato
 * **FR7 - Conexão com Redes Sociais:**
   * Seção *"Siga o Jardins da Serra no Instagram"* com feed preview de postagens do dia a dia.
-  * Links diretos para Facebook (`facebook.com/jardinsdaserra.net.br`) e Instagram.
+  * Links diretos para Facebook (`facebook.com/jardinsdaserra.com.br`) e Instagram.
 * **FR8 - Botão Flutuante do WhatsApp:** Ícone oficial do WhatsApp no canto inferior direito com mensagem personalizada (*"Olá! Gostaria de um orçamento para meu jardim."*).
 * **FR9 - Formulário de Orçamento / Visita Técnica:** Campos: Nome Completo, WhatsApp/Telefone, Bairro/Cidade, Tipo de Serviço (Paisagismo / Montagem / Manutenção) e Foto opcional do espaço atual.
 * **FR10 - Rodapé Institucional:** Logotipo, endereço e dados de atendimento de Lages - SC, links de redes sociais, mapa do site e direitos reservados.
