@@ -32,3 +32,7 @@ Thumbs.db
 .next/
 out/
 *.tsbuildinfo
+
+# Raw heavy client assets
+docs-bruto/
+
