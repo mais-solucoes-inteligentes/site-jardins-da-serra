@@ -60,3 +60,4 @@ Assim que os registros de DNS forem propagados (normalmente entre 15 minutos e 2
 * A Vercel gerará o certificado de segurança SSL (Let's Encrypt) automaticamente.
 * O site passará a responder com cadeado de segurança em:
   `https://jardinsdaserra.com.br` e `https://www.jardinsdaserra.com.br`.
+
