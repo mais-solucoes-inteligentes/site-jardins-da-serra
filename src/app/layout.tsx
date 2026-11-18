@@ -69,7 +69,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col font-sans bg-brand-surface text-brand-darkText">
-        <GoogleAnalytics gaId={siteConfig.googleAnalyticsId} />
+        <GoogleAnalytics
+          gtmId={siteConfig.googleTagManagerId}
+          gaId={siteConfig.googleAnalyticsId}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
