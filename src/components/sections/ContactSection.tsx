@@ -69,11 +69,10 @@ export function ContactSection() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-gray-500 uppercase">Telefones / WhatsApp</p>
+                  <p className="text-xs font-bold text-gray-500 uppercase">Telefone / WhatsApp</p>
                   <p className="text-base font-bold text-brand-brown">
                     {siteConfig.contact.phonePrimary}
                   </p>
-                  <p className="text-sm text-gray-600">{siteConfig.contact.phoneSecondary}</p>
                 </div>
               </div>
 

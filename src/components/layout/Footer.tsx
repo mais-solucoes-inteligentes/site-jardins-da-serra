@@ -91,7 +91,7 @@ export function Footer() {
             </div>
             <div className="flex items-center gap-3 text-sm text-white/80">
               <Phone className="w-4 h-4 text-brand-green shrink-0" />
-              <span>{siteConfig.contact.phonePrimary} / {siteConfig.contact.phoneSecondary}</span>
+              <span>{siteConfig.contact.phonePrimary}</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-white/80">
               <Mail className="w-4 h-4 text-brand-green shrink-0" />

@@ -60,7 +60,7 @@ export function InstagramSection() {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 hover:opacity-95 text-white font-bold text-sm shadow-md transition-all"
             >
               <Instagram className="w-4 h-4" />
-              <span>@jardinsdaserra</span>
+              <span>{siteConfig.social.instagramHandle}</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
 
