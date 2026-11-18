@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1558904541-efa8c4a08931?auto=format&fit=crop&w=2000&q=85"
+          src="/images/hero/hero-bg.jpg"
           alt="Paisagismo exuberante Jardins da Serra"
           fill
           className="object-cover object-center"

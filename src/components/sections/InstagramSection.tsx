@@ -6,32 +6,28 @@ import { siteConfig } from "@/data/siteConfig";
 const instagramFeedMock = [
   {
     id: "ig-1",
-    imageUrl:
-      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/instagram/ig-1.jpg",
     likes: 142,
     comments: 18,
     caption: "Mais um jardim de inverno finalizado em Lages! 🌿✨ #jardinagem #serracatarinense",
   },
   {
     id: "ig-2",
-    imageUrl:
-      "https://images.unsplash.com/photo-1558904541-efa8c4a08931?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/instagram/ig-2.jpg",
     likes: 215,
     comments: 24,
     caption: "Gramado esmeralda verde e impecável antes da chegada do fim de semana. 🍃",
   },
   {
     id: "ig-3",
-    imageUrl:
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/instagram/ig-3.jpg",
     likes: 189,
     comments: 12,
     caption: "Caminho de dormentes com lavandas perfumadas. Perfeito para relaxar. 🌸",
   },
   {
     id: "ig-4",
-    imageUrl:
-      "https://images.unsplash.com/photo-1592417817098-8f3d6910985b?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/instagram/ig-4.jpg",
     likes: 310,
     comments: 35,
     caption: "Poda artística de buxinhos e hortênsias prontas para florir. 🌾",

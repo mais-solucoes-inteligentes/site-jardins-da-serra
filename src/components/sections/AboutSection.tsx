@@ -11,7 +11,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative h-96 sm:h-[480px] w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <Image
-                src="https://images.unsplash.com/photo-1592417817098-8f3d6910985b?auto=format&fit=crop&w=1200&q=80"
+                src="/images/about/about-garden.jpg"
                 alt="Equipe Jardins da Serra trabalhando na serra catarinense"
                 fill
                 className="object-cover"
