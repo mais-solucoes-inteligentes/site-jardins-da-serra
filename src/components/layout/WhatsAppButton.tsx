@@ -4,6 +4,7 @@ import React from "react";
 import { MessageCircle } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { formatWhatsAppLink } from "@/lib/utils";
+import { trackGAEvent } from "@/components/analytics/GoogleAnalytics";
 
 export function WhatsAppButton() {
   const url = formatWhatsAppLink(
@@ -11,12 +12,17 @@ export function WhatsAppButton() {
     siteConfig.social.whatsappDefaultMessage
   );
 
+  const handleClick = () => {
+    trackGAEvent("click_whatsapp", "Conversao", "Botao Flutuante");
+  };
+
   return (
     <aside aria-label="Atendimento via WhatsApp" className="fixed bottom-6 right-6 z-50">
       <a
         href={url}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className="group relative flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] hover:bg-[#20ba59] text-white rounded-full shadow-2xl hover:shadow-green-500/50 transition-all transform hover:scale-110 active:scale-95"
         aria-label="Fale conosco pelo WhatsApp"
       >

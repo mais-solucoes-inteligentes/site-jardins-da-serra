@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Phone, Mail, MapPin, Clock, MessageCircle, Send, CheckCircle2 } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { formatWhatsAppLink } from "@/lib/utils";
+import { trackGAEvent } from "@/components/analytics/GoogleAnalytics";
 
 export function ContactSection() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -19,6 +20,8 @@ export function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
+
+    trackGAEvent("submit_form_contato", "Lead", formData.servico);
 
     // Preparar mensagem automática para o WhatsApp com os dados
     const autoMessage = `Olá! Meu nome é ${formData.nome}. Gostaria de um orçamento para o serviço de ${formData.servico} em ${formData.cidade}. ${formData.mensagem ? `Mensagem: ${formData.mensagem}` : ""}`;

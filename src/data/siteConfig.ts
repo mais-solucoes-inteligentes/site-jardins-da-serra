@@ -5,6 +5,7 @@ export const siteConfig = {
     "Especialistas em projetos de paisagismo, montagem, manutenção e cuidados de jardins para residências, condomínios e empresas em Lages e região.",
   url: "https://jardinsdaserra.com.br",
   ogImage: "/images/logo.png",
+  googleAnalyticsId: process.env.NEXT_PUBLIC_GA_ID || "",
   contact: {
     phonePrimary: "(49) 9 8423-5653",
     phoneSecondary: "(49) 9 9931-2452",
